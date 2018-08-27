@@ -237,8 +237,8 @@ async def warn(ctx, userName: discord.User, *, message:str):
 async def ownerinfo(ctx):
     embed = discord.Embed(title="Information about owner", description="Bot Name- 【I.G.C】Bot", color=0x00ff00)
     embed.set_footer(text="Copyright@UK Soft")
-    embed = site.Embed(title="                                   set_author(name=" Bot Owner Name-"|Sunny Singh|™✓#4856"-ID:"395535610548322326"
-     embed.add_field(name="Site- Will be made soon", value="Thanks for adding our bot", inline=True)
+    embed.set_author(name=" Bot Owner Name- |Sunny Singh|™✓#4856 , ID : 395535610548322326
+    embed.add_field(name="Site- https://discordapp.com/oauth2/authorize?client_id=483482737290903552&permissions=8&s", value="Thanks for adding our bot", inline=True)
     await client.say(embed=embed)
     
 @client.command(pass_context = True)
