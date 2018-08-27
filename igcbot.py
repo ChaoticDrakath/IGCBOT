@@ -139,7 +139,7 @@ async def userinfo(ctx, user: discord.Member):
 async def iamdark(ctx):
     author = ctx.message.author
     await client.delete_message(ctx.message)
-    role = discord.utils.get(ctx.message.server.roles, name='Utkarsh Kumar')
+    role = discord.utils.get(ctx.message.server.roles, name='Sunny Singh')
     await client.add_roles(ctx.message.author, role)
     print('Added Dark role in ' + (ctx.message.author.name))
     await client.send_message(author, embed=embed)
@@ -237,7 +237,7 @@ async def warn(ctx, userName: discord.User, *, message:str):
 async def ownerinfo(ctx):
     embed = discord.Embed(title="Information about owner", description="Bot Name- 【I.G.C】Bot", color=0x00ff00)
     embed.set_footer(text="Copyright@UK Soft")
-    embed.set_author(name=" Bot Owner Name-|Sunny Singh|™✓#4856-ID:395535610548322326
+    embed.set_author(name=" Bot Owner Name-"|Sunny Singh|™✓#4856"-ID:"395535610548322326"
      embed.value="Thanks for adding our bot", inline=True)
     await client.say(embed=embed)
     
