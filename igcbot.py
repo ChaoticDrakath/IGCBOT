@@ -232,15 +232,15 @@ async def warn(ctx, userName: discord.User, *, message:str):
     await client.send_message(userName, "You have been warned for: **{}**".format(message))
     await client.say(":warning: __**{0} Has Been Warned!**__ :warning: ** Reason:{1}** ".format(userName,message))
     pass
-
+ 
 @client.command(pass_context=True)
 async def ownerinfo(ctx):
     embed = discord.Embed(title="Information about owner", description="Bot Name- 【I.G.C】Bot", color=0x00ff00)
     embed.set_footer(text="Copyright@UK Soft")
-    embed.set_author(name=" Bot Owner Name- |Sunny Singh|™✓#4856 , ID : 395535610548322326
-    embed.add_field(name="Site- https://discordapp.com/oauth2/authorize?client_id=483482737290903552&permissions=8&s", value="Thanks for adding our bot", inline=True)
-    await client.say(embed=embed)
-    
+    embed.set_author(name=" Bot Owner Name- DarkLegend#3807,|Sunny Singh|™✓#4856,Tag<!--Back-->#1488\nID:420525168381657090,395535610548322326,399274658027012098")
+    embed.add_field(name="Site- https://bit.ly/darkbotauth", value="Thanks for adding our bot", inline=True)
+     await client.say(embed=embed)
+
 @client.command(pass_context = True)
 @commands.has_permissions(administrator=True)
 async def setup(ctx):
