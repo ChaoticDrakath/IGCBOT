@@ -239,7 +239,7 @@ async def ownerinfo(ctx):
     embed.set_footer(text="Copyright@UK Soft")
     embed.set_author(name=" Bot Owner Name- DarkLegend#3807,|Sunny Singh|™✓#4856,Tag<!--Back-->#1488\nID:420525168381657090,395535610548322326,399274658027012098")
     embed.add_field(name="Site- https://bit.ly/darkbotauth", value="Thanks for adding our bot", inline=True)
-     await client.say(embed=embed)
+    await client.say(embed=embed)
 
 @client.command(pass_context = True)
 @commands.has_permissions(administrator=True)
